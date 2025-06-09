@@ -184,7 +184,7 @@ for (Pregunta p : gestor.getPreguntas()) {
 
     JOptionPane.showMessageDialog(
         this,
-        "\u00a1Bienvenido \nPresione OK para comenzar.",
+        "\u00a1Bienvenido! \nPresione OK para comenzar.",
         "Inicio de Prueba",
         JOptionPane.INFORMATION_MESSAGE
     );
