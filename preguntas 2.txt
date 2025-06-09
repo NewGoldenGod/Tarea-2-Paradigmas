@@ -1,0 +1,15 @@
+MULTIPLE,RECORDAR,¿Cuál es el océano más grande del mundo?,Atlántico;Índico;Pacífico;Ártico,Pacífico,30
+VERDADERO_FALSO,COMPRENDER,El mercurio es el único metal que es líquido a temperatura ambiente,,TRUE,20
+MULTIPLE,APLICAR,¿Qué componente electrónico almacena carga eléctrica?,Resistencia;Condensador;Diodo;Transistor,Condensador,40
+VERDADERO_FALSO,RECORDAR,La velocidad de la luz es aproximadamente 300,000 km/s,,TRUE,25
+MULTIPLE,ANALIZAR,¿Cuál es un lenguaje de programación orientado a objetos?,C++;HTML;CSS;SQL,C++,35
+MULTIPLE,SINTETIZAR,¿Qué instrumento se utiliza para medir la temperatura?,Termómetro;Barómetro;Higrómetro;Voltímetro,Termómetro,30
+VERDADERO_FALSO,APLICAR,La electricidad es un flujo de electrones,,TRUE,25
+MULTIPLE,COMPRENDER,¿Cuál es el proceso por el que las plantas convierten luz en energía?,Fotosíntesis;Respiración;Fermentación;Transpiración,Fotosíntesis,20
+VERDADERO_FALSO,ANALIZAR,El hidrógeno es el elemento químico más ligero,,TRUE,30
+MULTIPLE,RECORDAR,¿Quién escribió “Don Quijote de la Mancha”?,Miguel de Cervantes;Gabriel García Márquez;Pablo Neruda;Mario Vargas Llosa,Miguel de Cervantes,30
+MULTIPLE,COMPRENDER,¿Cuál es la fórmula química del agua?,H2O;CO2;O2;NaCl,H2O,30
+VERDADERO_FALSO,SINTETIZAR,La Revolución Francesa comenzó en 1789,,TRUE,20
+MULTIPLE,APLICAR,¿Qué herramienta informática se usa para crear presentaciones?,PowerPoint;Excel;Word;Access,PowerPoint,35
+VERDADERO_FALSO,RECORDAR,La penicilina fue descubierta por Alexander Fleming,,TRUE,25
+MULTIPLE,ANALIZAR,¿Cuál de las siguientes opciones es un sistema operativo?,Windows;Google;Facebook;Twitter,Windows,30
