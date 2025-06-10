@@ -39,7 +39,7 @@ public class PantallaResultados extends JFrame {
             texto.append("Pregunta ").append(i + 1).append(": ").append(p.getEnunciado()).append("\n");
             texto.append("Tu respuesta: ").append(respuestaUsuario).append("\n");
             texto.append("Respuesta correcta: ").append(respuestaCorrecta).append("\n");
-            texto.append("Resultado: ").append(correcta ? "✓ Correcto\n" : "✗ Incorrecto\n");
+            texto.append("Resultado: ").append(correcta ? "Correcto\n" : "Incorrecto\n");
             texto.append("----------------------------------\n");
         }
         
