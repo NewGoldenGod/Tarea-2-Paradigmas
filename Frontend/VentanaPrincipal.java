@@ -155,7 +155,7 @@ for (Pregunta p : gestor.getPreguntas()) {
             if (gestor.estaCargadoCorrectamente()) {
                 labelEstado.setText("Archivo cargado: " + archivo.getName());
                 labelResumen.setText("Total: " + gestor.getCantidadPreguntas() +
-                                     " preguntas. Tiempo: " + (gestor.obtenerTiempoTotal())/60 + " minutos" + (gestor.obtenerTiempoTotal())%60 + "segundos");
+                                     " preguntas. Tiempo: " + (gestor.obtenerTiempoTotal())/60 + " minutos " + (gestor.obtenerTiempoTotal())%60 + " segundos");
                 botonIniciar.setEnabled(true);
             } else {
                 labelEstado.setText("Error: el archivo no contiene preguntas válidas.");
@@ -184,7 +184,7 @@ for (Pregunta p : gestor.getPreguntas()) {
 
     JOptionPane.showMessageDialog(
         this,
-        "\u00a1Bienvenido! \nPresione OK para comenzar.",
+        "\u00a1Bienvenido \nPresione OK para comenzar.",
         "Inicio de Prueba",
         JOptionPane.INFORMATION_MESSAGE
     );
