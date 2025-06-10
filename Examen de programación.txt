@@ -1,0 +1,10 @@
+MULTIPLE,RECORDAR,¿Qué palabra clave se usa en Java para declarar una variable?,var;let;variable;int,int,30
+MULTIPLE,ENTENDER,¿Qué imprime este código? System.out.print(5 + "5"),55;10;5 5;Error,55,45
+MULTIPLE,APLICAR,¿Qué bucle se ejecuta al menos una vez en Java?,for;while;do-while;switch,do-while,60
+VERDADERO_FALSO,ANALIZAR,En Java String es un tipo primitivo,,FALSE,75
+MULTIPLE,EVALUAR,¿Cuál de estos es el método correcto para obtener la longitud de un array en Java?,array.length;array.size;array.length();array.getSize(),array.length,90
+MULTIPLE,CREAR,¿Qué estructura permite manejar múltiples condiciones en Java?,if;for;switch;while,switch,120
+MULTIPLE,RECORDAR,¿Qué operador se usa para comparar igualdad de valores en Java?,=;==;===;equals,==,30
+MULTIPLE,ENTENDER,Si int x = 5 ¿qué hace x++?,Incrementa x en 1;Decrementa x en 1;Duplica el valor de x;No hace nada,Incrementa x en 1,45
+MULTIPLE,APLICAR,¿Cómo se declara un método que devuelve un entero y recibe un String en Java?,int foo(String s);method int foo(String s);int function foo(String s);String foo(int x),int foo(String s),60
+VERDADERO_FALSO,ANALIZAR,public static void main(String[] args) es el método principal en Java,,TRUE,75

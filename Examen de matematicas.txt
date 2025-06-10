@@ -1,0 +1,10 @@
+MULTIPLE,RECORDAR,¿Cuánto es 7 × 8?,54;56;58;60,56,30
+MULTIPLE,ENTENDER,Si x + 5 = 12 ¿cuál es el valor de x?,5;7;10;17,7,45
+MULTIPLE,APLICAR,Un rectángulo tiene base 8 cm y altura 5 cm ¿Cuál es su área?,13 cm2;26 cm2;40 cm2;80 cm2,40 cm2,60
+VERDADERO_FALSO,ANALIZAR,La ecuación 2x + 3 = 11 tiene la misma solución que x = 4,,TRUE,75
+MULTIPLE,EVALUAR,¿Cuál de estas expresiones es equivalente a 3(x+2)?,3x + 2;x + 6;3x + 6;3x + 5,3x + 6,90
+MULTIPLE,CREAR,¿Qué ecuación representa "El doble de un número menos 5 es igual a 11"?,2x + 5 = 11;2x - 5 = 11;x/2 - 5 = 11;5 - 2x = 11,2x - 5 = 11,120
+MULTIPLE,RECORDAR,¿Cuál es el resultado de 15 ÷ 3?,3;5;12;18,5,30
+MULTIPLE,ENTENDER,¿Qué fracción representa tres cuartos?,1/4;2/3;3/4;4/5,3/4,45
+MULTIPLE,APLICAR,Si un triángulo tiene base 10 cm y altura 6 cm ¿cuál es su área?,16 cm2;30 cm2;60 cm2;120 cm2,30 cm2,60
+VERDADERO_FALSO,ANALIZAR,Todos los cuadrados son rectángulos,,TRUE,75

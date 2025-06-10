@@ -1,0 +1,6 @@
+MULTIPLE, RECORDAR, ¿Cuál es el artículo definido femenino singular?, la;el;las;los, la, 30
+MULTIPLE, ENTENDER, ¿Qué tipo de palabra es "correr" en la frase "Me gusta correr por las mañanas"?, Verbo;Sustantivo;Adjetivo;Adverbio, Verbo, 45
+MULTIPLE, APLICAR, ¿Cuál es la forma correcta del verbo "haber" en presente para "Nosotros _____ terminado el trabajo"?, hemos;habemos;han;ha, hemos, 60
+VERDADERO_FALSO, ANALIZAR, El sujeto de la oración "En el parque juegan los niños" es "los niños"., , TRUE, 75
+MULTIPLE, EVALUAR, ¿Cuál de estas obras pertenece al Siglo de Oro español?, Don Quijote de la Mancha;Cien años de soledad;La casa de Bernarda Alba;Rayuela, Don Quijote de la Mancha, 90
+MULTIPLE, CREAR, ¿Qué figura literaria predomina en "Sus ojos eran dos luceros"?, Metáfora;Hipérbole;Personificación;Comparación, Metáfora, 120

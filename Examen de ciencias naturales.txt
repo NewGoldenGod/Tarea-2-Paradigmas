@@ -1,0 +1,10 @@
+MULTIPLE,RECORDAR,Cual es el planeta mas cercano al Sol,Mercurio;Venus;Tierra;Marte,Mercurio,30  
+MULTIPLE,ENTENDER,Que proceso usan las plantas para producir su alimento,Fotosintesis;Respiracion;Digestion;Transpiracion,Fotosintesis,45  
+MULTIPLE,APLICAR,Si mezclas vinagre y bicarbonato que tipo de reaccion ocurre,Fisica;Quimica;Electrica;Magnetica,Quimica,60  
+VERDADERO_FALSO,ANALIZAR,El agua hierve a 100C a nivel del mar,,TRUE,75  
+MULTIPLE,EVALUAR,Cual de estos es un mamifero,Tiburon;Pinguino;Ballena;Serpiente,Ballena,90  
+MULTIPLE,CREAR,Que metodo seria mejor para separar arena y agua,Filtracion;Destilacion;Decantacion;Evaporacion,Decantacion,120  
+MULTIPLE,RECORDAR,Que gas necesitamos para respirar,Helio;Oxigeno;Dioxido de carbono;Nitrogeno,Oxigeno,30  
+MULTIPLE,ENTENDER,Que parte de la planta absorbe agua y nutrientes,Hoja;Raiz;Flor;Tallo,Raiz,45  
+MULTIPLE,APLICAR,Que instrumento mide la temperatura,Barometro;Termometro;Velocimetro;Calorimetro,Termometro,60  
+VERDADERO_FALSO,ANALIZAR,La Luna es un satelite natural de la Tierra,,TRUE,75  
