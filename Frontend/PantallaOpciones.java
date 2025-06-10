@@ -102,34 +102,40 @@ public class PantallaOpciones extends JFrame {
     }
 
     private void cargarPregunta() {
-        Pregunta pregunta = gestor.getPregunta(indiceActual);
-        labelPregunta.setText((indiceActual + 1) + ". " + pregunta.getEnunciado());
+    Pregunta pregunta = gestor.getPregunta(indiceActual);
+    labelPregunta.setText((indiceActual + 1) + ". " + pregunta.getEnunciado());
 
-        List<String> opciones = pregunta.getOpciones();
-        grupoOpciones.clearSelection();
+    List<String> opciones = pregunta.getOpciones();
+    grupoOpciones.clearSelection();
 
-        for (int i = 0; i < opcionesRadio.length; i++) {
-            if (i < opciones.size()) {
-                opcionesRadio[i].setText(opciones.get(i));
-                opcionesRadio[i].setVisible(true);
-            } else {
-                opcionesRadio[i].setVisible(false);
+    for (int i = 0; i < opcionesRadio.length; i++) {
+        if (i < opciones.size()) {
+            opcionesRadio[i].setText(opciones.get(i));
+            opcionesRadio[i].setVisible(true);
+            
+            // Restaurar la selección si existe una respuesta previa
+            if (respuestasUsuario.containsKey(indiceActual) && 
+                respuestasUsuario.get(indiceActual).equals(opciones.get(i))) {
+                opcionesRadio[i].setSelected(true);
             }
+        } else {
+            opcionesRadio[i].setVisible(false);
         }
-
-        botonAnterior.setEnabled(indiceActual > 0);
-        botonSiguiente.setText((indiceActual == gestor.getCantidadPreguntas() - 1) ? "Entregar tarea" : "Siguiente");
     }
+
+    botonAnterior.setEnabled(indiceActual > 0);
+    botonSiguiente.setText((indiceActual == gestor.getCantidadPreguntas() - 1) ? "Entregar tarea" : "Siguiente");
+}
 
     private void guardarSeleccionActual() {
-        for (JRadioButton radio : opcionesRadio) {
-            if (radio.isSelected()) {
-                respuestasUsuario.put(indiceActual, radio.getText());
-                break;
-            }
+     for (int i = 0; i < opcionesRadio.length; i++) {
+        if (opcionesRadio[i].isSelected()) {
+            respuestasUsuario.put(indiceActual, opcionesRadio[i].getText());
+            break;
         }
     }
-
+}
+    
     private void accionAnterior(ActionEvent e) {
         guardarSeleccionActual();
         if (indiceActual > 0) {
