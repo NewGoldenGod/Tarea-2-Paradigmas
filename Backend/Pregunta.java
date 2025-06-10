@@ -5,7 +5,7 @@ import java.util.List;
 // Clase Pregunta
 public class Pregunta {
     public enum Tipo { MULTIPLE, VERDADERO_FALSO }
-    public enum NivelBloom { RECORDAR, COMPRENDER, APLICAR, ANALIZAR, EVALUAR, CREAR, SINTETIZAR }
+    public enum NivelBloom { RECORDAR, COMPRENDER, APLICAR, ANALIZAR, EVALUAR, CREAR }
     
     // Componentes del elemento Pregunta
     private Tipo tipo;
